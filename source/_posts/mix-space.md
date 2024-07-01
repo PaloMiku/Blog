@@ -3,6 +3,7 @@ title: Mix-Space：个人空间新体验
 date: 2024-05-01
 tags: Mix-Space
 categories: 建站
+abbrlink: 1
 -----
 
 　　在开始之前，我们先抛出一个问题：因为什么要使用 Mix-Space？

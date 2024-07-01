@@ -3,7 +3,7 @@ title: Hexo使用Github Action实现持续集成
 date: 2023-09-01
 categories: 建站
 tags: [Hexo,Github-Action]
-
+abbrlink: 2
 -----
 
 
