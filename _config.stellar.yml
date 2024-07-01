@@ -251,7 +251,7 @@ comments:
   # https://twikoo.js.org/
   twikoo:
     js: https://gcore.jsdelivr.net/npm/twikoo@1.6.36/dist/twikoo.all.min.js # 建议锁定版本
-    envId: https://twikoo.sotkg.link # vercel函数
+    envId: https://twikoo.tkgso.fun/ # vercel函数
 
   # Waline
   # https://waline.js.org/
@@ -339,7 +339,7 @@ footer:
        - '[友链](/)'
        - '[留言板](/)'
     '更多':
-       - '[萌ICP备20245212号](/)'
+       - '[萌ICP备20245212号](https://icp.gov.moe/?keyword=20245212)'
     #   - '[](/)'
   content: | # 支持 Markdown 格式
     本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
