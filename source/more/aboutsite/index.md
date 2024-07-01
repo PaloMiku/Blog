@@ -14,7 +14,7 @@ comment_id: /more/
 ## 站点信息
 
 - 本站使用 [Hexo](https://github.com/hexojs/hexo) 框架和 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主题创建，代码托管于 [GitHub](https://github.com/PaloMiku/Blog)，站点部署于 [Dappling](https://dappling.network/)。
-- 评论系统使用 [Artalk](https://github.com/ArtalkJS/Artalk) 自托管，系统和数据部署在 ZgoCloud。
+- 评论系统使用 [Twokoo](https://github.com/twikoojs/twikoo) 管理，系统和数据部署在 Vercel。
 
 ## 隐私声明
 
