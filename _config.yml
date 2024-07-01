@@ -123,3 +123,19 @@ template_txt: ./sitemap_template.txt
 rel: false
 tags: true
 categories: true
+
+# offline config passed to sw-precache.
+service_worker:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+  - public/index.html
+  - public/img/favcion.png
+  - public/avatar.jpg
+  - public/manifest.json
+  stripPrefix: public
+  verbose: false
+  runtimeCaching:
+    - urlPattern: /**/*
+      handler: cacheFirst
+      options:
+        origin: blog.tkgso.fun
