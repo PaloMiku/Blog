@@ -5,9 +5,7 @@ breadcrumb: false
 -----
 {% navbar active:/social/ [友情链接](/social/) [留言板](/social/comment/) %}
 
-{% note color:red 
-## 友链信息补全计划
-
+{% note color:red 友链信息补全计划：
 如下所示，旧友链缺少了站点截图和描述信息，如果您有需要，请在下方评论完善您的站点信息，具体请参考收录格式（如下）
 
 ```yaml
@@ -28,9 +26,7 @@ description:
 
 {% friends link %}
 
-{% note color:green 
-## 来交换友链吧！
-Mikuの次行星欢迎各方站点递交信息互相收录！请注意先在您的站点添加本站信息后再通过评论区或博主邮箱申请收录！
+{% note color:green 来交换友链吧！Mikuの次行星欢迎各方站点递交信息互相收录！请注意先在您的站点添加本站信息后再通过评论区或博主邮箱申请收录！
 
 本行星的信息如下：
 
