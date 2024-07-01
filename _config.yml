@@ -105,10 +105,6 @@ theme: stellar
 deploy:
   type: ''
 
-# hexo-abbrlink2
-abbrlink:
-  start: 0 # 启起始文章id，默认为0 ，可以自定义，比如100
-
 feed:
 type: atom
 path: atom.xml
@@ -117,3 +113,13 @@ hub:
 content:
 content_limit:
 content_limit_delim: ' '
+
+sitemap:
+path: 
+  - sitemap.xml
+  - sitemap.txt
+template: ./sitemap_template.xml
+template_txt: ./sitemap_template.txt
+rel: false
+tags: true
+categories: true

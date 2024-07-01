@@ -8,9 +8,6 @@ dependencies:
   hexo:
     specifier: ^7.0.0
     version: 7.2.0
-  hexo-abbrlink2:
-    specifier: ^1.0.2
-    version: 1.0.2
   hexo-generator-archive:
     specifier: ^2.0.0
     version: 2.0.0
@@ -23,6 +20,9 @@ dependencies:
   hexo-generator-index:
     specifier: ^3.0.0
     version: 3.0.0
+  hexo-generator-sitemap:
+    specifier: ^3.0.1
+    version: 3.0.1
   hexo-generator-tag:
     specifier: ^2.0.0
     version: 2.0.0
@@ -601,10 +601,6 @@ packages:
       function-bind: 1.1.2
     dev: false
 
-  /hexo-abbrlink2@1.0.2:
-    resolution: {integrity: sha512-sXMQ451lPj3cF4ywxmJHtZHPHj/ye5+FbRwMdR2yuIoXtzYVFt8iCLhmsYcMEJsyrfBamwGR/lrOqJ4atq06XA==}
-    dev: false
-
   /hexo-cli@4.3.2:
     resolution: {integrity: sha512-druJeBgLpG9ncDS5AhBHdAXk0G4CFj8Qes09pApyZ6bR+nJW1JYiDMuilhudaKDdq+1l49jWXVTidkcb7p0Jbw==}
     engines: {node: '>=14'}
@@ -668,6 +664,17 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       hexo-pagination: 3.0.0
+    dev: false
+
+  /hexo-generator-sitemap@3.0.1:
+    resolution: {integrity: sha512-n+0KLNmq6TLbiZPTQF6NY5MbEem/O+DFx0lgQZNQcU4tdjXIZRrQJs+KRKeT66NTkdlYTqb4WwCxswLqQz0crA==}
+    engines: {node: '>=12.13.0'}
+    dependencies:
+      hexo-util: 2.7.0
+      micromatch: 4.0.7
+      nunjucks: 3.2.4
+    transitivePeerDependencies:
+      - chokidar
     dev: false
 
   /hexo-generator-tag@2.0.0:
