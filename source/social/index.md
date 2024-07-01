@@ -11,13 +11,13 @@ breadcrumb: false
 ```yaml
 - title: 
 # 站点标题
-url:
+  url:
 # 站点链接
-cover:
+  cover:
 # 站点截图（PC）
-icon:
+  icon:
 # 站点头像
-description:
+  description:
 # 站点描述
 ```
 
@@ -33,13 +33,13 @@ description:
 ```yaml
 - title: Mikuの次行星
 # 站点标题
-url: https://blog.tkgso.fun
+  url: https://blog.tkgso.fun
 # 站点链接
-cover: 站点截图待完善，如有需求可自行截取
+  cover: 站点截图待完善，如有需求可自行截取
 # 站点截图（PC）
-icon: https://cravatar.cn/avatar/ba76faef3cc8252bd0433b3515124389?s=512
+  icon: https://cravatar.cn/avatar/ba76faef3cc8252bd0433b3515124389?s=512
 # 站点头像
-description: 心有多宽，世界就有多远
+  description: 心有多宽，世界就有多远
 # 站点描述
 ```
 
