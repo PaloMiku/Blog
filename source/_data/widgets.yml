@@ -1,0 +1,8 @@
+recent:
+  layout: recent
+  limit: 5
+  
+label:
+  layout: markdown
+  title: 我的标签
+  content: 00 后 / 应届高中毕业生 / INFP-A / 坐标山东 / 
