@@ -1,8 +1,11 @@
-modules = ["nodejs-20"]
-run = ["bash", "main.sh"]
+modules = ["bash", "nodejs-20"]
+run = "pnpm dev"
 [nix]
 channel = "stable-23_11"
 
 [[ports]]
 localPort = 4000
 externalPort = 80
+
+[deployment]
+run = ["sh", "-c", "pnpm dev"]
