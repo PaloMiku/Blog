@@ -4,6 +4,6 @@ menu_id: social
 breadcrumb: false
 -----
 
-{% navbar active:/social/ [友情链接](/social/) [留言板](/social/comment/) %}
+{% navbar active:/social/comment/ [友情链接](/social/) [留言板](/social/comment/) %}
 
-欢迎来到行星留言板，在这里你可以与Miku鬆取得通讯！
+{% note color:green 欢迎来到留言板，在这里你可以与Miku鬆取得通讯！%}
