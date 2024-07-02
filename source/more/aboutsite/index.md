@@ -5,7 +5,7 @@ breadcrumb: false
 comment_id: /more/
 ---
 
-{% navbar active:/more/ [关于本站](/more/about/) [关于博主](/more/me/) %}
+{% navbar active:/more/aboutsite/ [关于本站](/more/aboutsite/) [关于博主](/more/) %}
 
 {% image https://pic.imgdb.cn/item/64c9cac31ddac507cc7d78f7.jpg %}
 

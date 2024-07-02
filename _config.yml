@@ -114,3 +114,8 @@ content:
 content_limit:
 content_limit_delim: ' '
 
+sitemap:
+	path: sitemap.xml
+baidusitemap:
+	path: baidusitemap.xml
+
