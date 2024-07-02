@@ -1,0 +1,20 @@
+name: Flojoy
+title: 纷语驿站 - 去中心化互联小站
+subtitle: '纷语驿站 | Operation by 木语星'
+tags: 纷语驿站
+icon: https://transfer-misskey.takagi3.top/misskey//765ffc9f-9390-4032-944b-67ef8c6f7ef4.png
+cover: https://transfer-misskey.takagi3.top/misskey//a529004e-79ca-4535-a9cb-08a4b5c2542d.webp
+description: 去中心化互联网络的边缘小酒吧。ACGN、日常生活... 包容欢迎每个人的真诚分享。
+search:
+  filter: /wiki/flojoy/
+  placeholder: 在 flojoy 中搜索...
+leftbar: 
+  - tree
+  - related
+comment_title: '评论区仅供交流，有问题请发送邮件到info@flojoy.fun反馈'
+base_dir: /wiki/flojoy/
+tree:
+  '快速开始':
+    - quickstart
+    - agreement
+    - notice
