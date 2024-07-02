@@ -1,3 +1,12 @@
+---
+layout: page
+menu_id: more
+breadcrumb: false
+comments: false
+---
+
+{% navbar active:/more/pay/ [关于本站](/more/aboutsite/) [关于博主](/more/) [赞助博主](/more/pay/) %}
+
 ![微信赞赏码](https://npm.elemecdn.com/yzsong06@latest/source/image/Pay.png)
 
 ## 介绍

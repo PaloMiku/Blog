@@ -5,7 +5,7 @@ breadcrumb: false
 comments: false
 ---
 
-{% navbar active:/more/ [关于本站](/more/aboutsite/) [关于博主](/more/) %}
+{% navbar active:/more/ [关于本站](/more/aboutsite/) [关于博主](/more/) [赞助博主](/more/pay/) %}
 
 ### 个人简介
 
