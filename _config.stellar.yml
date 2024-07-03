@@ -338,6 +338,8 @@ footer:
     '社交':
        - '[友链](/social/)'
        - '[留言板](/social/comment/)'
+       - '[关于本站](/more/aboutsite/)'
+       - '[关于博主](/more/)'
     '更多':
        - '[萌ICP备20245212号](https://icp.gov.moe/?keyword=20245212)'
     #   - '[](/)'
