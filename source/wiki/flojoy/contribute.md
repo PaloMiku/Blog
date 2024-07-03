@@ -35,4 +35,4 @@ title: 赞助与反馈
 站内可私信公号：@offical@flojoy.fun
 反馈邮箱：info@flojoy.fun
 
-{% button 下一步 ./niceend icon:next %}
+{% button 下一步 ./niceend.html icon:next %}

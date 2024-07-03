@@ -11,6 +11,6 @@ title: 快速开始
 
 {% note color:cyan 你准备好加入纷语驿站了吗？准备好了就点击下方按钮开始吧！ %}
 
-{% button 快速开始 ./agreement icon:start %}
+{% button 快速开始 ./agreement.html icon:start %}
 
 {% button 使用文档 https://docs.flojoy.fun icon:books %}

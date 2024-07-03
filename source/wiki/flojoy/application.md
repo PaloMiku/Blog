@@ -19,4 +19,4 @@ title: 客户端
 
 {% link https://github.com/pantasystem/Milktea/releases/ desc:true %}
 
-{% button 下一步 ./contribute icon:next %}
+{% button 下一步 ./contribute.html icon:next %}

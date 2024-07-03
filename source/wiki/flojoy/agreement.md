@@ -12,4 +12,4 @@ title: 使用须知
 
 {% note color:red 进行“下一步”操作即代表你同意上述相关须知及其相关内容。 %}
 
-{% button 下一步 ./application icon:next %}
+{% button 下一步 ./application.html icon:next %}
