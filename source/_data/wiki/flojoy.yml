@@ -14,7 +14,9 @@ leftbar:
 comment_title: '评论区仅供交流，有问题请发送邮件到info@flojoy.fun反馈'
 base_dir: /wiki/flojoy/
 tree:
-  '快速开始':
+  '快速引导':
     - quickstart
     - agreement
-    - notice
+    - application
+    - contribute
+    - niceend
