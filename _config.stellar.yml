@@ -345,7 +345,7 @@ footer:
        - '[鲁ICP备2024102866号](https://beian.miit.gov.cn)'
           #   - '[](/)'
   content: | # 支持 Markdown 格式
-    ![upyun](https://pic.imgdb.cn/item/66864b24d9c307b7e9317df7.png)
+    [![upyun](https://pic.imgdb.cn/item/66864b24d9c307b7e9317df7.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)
 
 ######## Tag Plugins ########
 tag_plugins:
