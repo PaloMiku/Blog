@@ -21,7 +21,7 @@ jobs:
 
       - name: 配置环境变量
         env:
-          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+          HEXO_DEPLOY_KEY: ${{secrets.HEXO_DEPLOY_KEY}}
         run: |
           mkdir -p ~/.ssh/
           echo "$HEXO_DEPLOY_KEY" > ~/.ssh/id_rsa
