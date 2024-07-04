@@ -342,6 +342,8 @@ footer:
        - '[关于博主](/more/)'
     '更多':
        - '[萌ICP备20245212号](https://icp.gov.moe/?keyword=20245212)'
+       - '[鲁ICP备2024102866号](https://beian.miit.gov.cn)'
+       
     #   - '[](/)'
   content: | # 支持 Markdown 格式
     本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
