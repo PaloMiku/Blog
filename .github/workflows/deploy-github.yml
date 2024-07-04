@@ -1,0 +1,42 @@
+name: 部署站点
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: 设置为 Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: 配置环境变量
+        env:
+          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "yzsong06"
+          git config --global user.email "yzsong06@outlook.com"
+      - name: 安装部署时运行环境
+        run: |
+          npm i -g hexo-cli 
+          npm i -g pnpm
+          npm i
+      - name: 生成站点静态文件
+        run: |
+          hexo clean && hexo generate
+      - name: 使用hexo-deployer部署站点
+        run: |
+          hexo deploy
