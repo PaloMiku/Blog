@@ -103,7 +103,10 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: git@github.com:PaloMiku/BlogWeb.git
+  branch: main
+
 
 feed:
 type: atom
