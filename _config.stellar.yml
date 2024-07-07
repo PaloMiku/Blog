@@ -46,12 +46,12 @@ menubar:
        url: /wiki/
      - id: explore
        theme: '#FA6400'
-       icon: solar:planet-bold-duotone
+       icon: solar:chat-square-like-bold-duotone
        title: 更多
-       url: /more/aboutsite/
+       url: /more/copyright/
      - id: social
        theme: '#F44336'
-       icon: solar:chat-square-like-bold-duotone
+       icon: solar:planet-bold-duotone
        title: 社交
        url: /social/
 
