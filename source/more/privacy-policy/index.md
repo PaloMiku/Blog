@@ -1,6 +1,8 @@
 ---
-title: "隐私政策"
-date: 2022-09-01
+layout: page
+menu_id: more
+breadcrumb: false
+comments: false
 ---
 {% navbar active:/more/privacy-policy/ [版权信息](/more/copyright/) [隐私政策](/more/privacy-policy/)
  [关于博主](/more/) [赞助博主](/more/pay/) %}
