@@ -334,12 +334,12 @@ footer:
     - '[文章标签](/tags/)'
     - '[文章归档](/archives/)'
     '链接':
-       - '[隐私政策](/more/privacy-policy)'
-       - '[版权信息]'
+       - '[隐私政策](/more/privacy-policy/)'
+       - '[版权信息](/more/copyright/)'
     '社交':
        - '[友情链接](/social/)'
        - '[站点留言](/social/comment/)'
-       - '[关于本站](/more/aboutsite/)'
+       - '[赞助博主](/more/pay/)'
        - '[关于博主](/more/)'
     '信息':
        - '[萌ICP备20245212号](https://icp.gov.moe/?keyword=20245212)'
