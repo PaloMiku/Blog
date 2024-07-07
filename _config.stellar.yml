@@ -333,14 +333,15 @@ footer:
     - '[文章分类](/categories/)'
     - '[文章标签](/tags/)'
     - '[文章归档](/archives/)'
-    # '项目':
-    #   - '[开源库](/)'
+    '链接':
+       - '[隐私政策](/more/privacy-policy)'
+       - '[版权信息]'
     '社交':
-       - '[友链](/social/)'
-       - '[留言板](/social/comment/)'
+       - '[友情链接](/social/)'
+       - '[站点留言](/social/comment/)'
        - '[关于本站](/more/aboutsite/)'
        - '[关于博主](/more/)'
-    '更多':
+    '信息':
        - '[萌ICP备20245212号](https://icp.gov.moe/?keyword=20245212)'
        - '[鲁ICP备2024102866号](https://beian.miit.gov.cn)'
           #   - '[](/)'

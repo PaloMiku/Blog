@@ -5,8 +5,9 @@ breadcrumb: false
 comments: false
 ---
 
-{% navbar active:/more/ [关于本站](/more/aboutsite/) [关于博主](/more/) [赞助博主](/more/pay/) %}
-
+{% navbar active:/more/ [版权信息](/more/copyright/) [隐私政策](/more/privacy-policy/)
+ [关于博主](/more/) [赞助博主](/more/pay/) %}
+ 
 ### 个人简介
 
 目前是来自山东的应届高中毕业生，成绩一般，估计奔专。平常喜欢探索新科技，喜欢玩二游，虽菜但仍在尝逝音游（~~虽然还是改变不了菜的事实~~）
