@@ -70,7 +70,7 @@ comment_id: /more/
 相关代码和服务继承原项目的 License：
 
 * Hexo： [MIT License](https://github.com/hexojs/hexo/blob/master/LICENSE)
-* Theme(Blowfish)： [MIT License](https://github.com/xaoxuu/hexo-theme-stellar/blob/main/LICENSE)
+* Theme(Stellar)： [MIT License](https://github.com/xaoxuu/hexo-theme-stellar/blob/main/LICENSE)
 * 本站源码： [GLWT License](https://github.com/PaloMiku/Blog/blob/main/LICENSE)
 
 ### 特别声明
