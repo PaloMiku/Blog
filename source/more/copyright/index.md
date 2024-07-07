@@ -64,8 +64,8 @@ comment_id: /more/
 
 本站使用 [Hexo](https://hexo.io/) 构建：
 
-* 国内：通过 GitHub Actions 部署至华为云。
-* 境外：通过 Dappling 部署并通过Amazon CloudFront
+* 国内：通过 GitHub Actions 部署至华为云并通过 括彩云 与 又拍云 进行 CDN 分发加速
+* 境外：通过 Dappling 部署并通过Amazon CloudFront 进行 CDN 分发加速
 
 相关代码和服务继承原项目的 License：
 
