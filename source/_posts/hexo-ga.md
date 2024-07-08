@@ -6,7 +6,6 @@ tags: [Hexo,Github-Action]
 abbrlink: 2
 -----
 
-
    我最近决定在GitHub上利用GitHub的Action构建一个稳定且一直能存在的博客，国内访问不一定快，但胜在一直都有。
 　　<!-- more -->
 ### 本地运行检查
@@ -24,13 +23,19 @@ hexo clean && hexo generate
 ### 配置文件
 　　关于如何将仓库上传至GitHub，请自行查询资料，此处只介绍上传后的相关配置
 　　首先先确认Hexo的配置文档config.yml有类似如下配置
-```bash
+```yaml
 deploy:
 type: git
 repository: git@github.com:PaloMiku/Demo.git
 branch: main
 ```
 > 此处Repository请自行设置为你的GitHub Pages仓库，例如xxx.github.io 注意使用SSH地址！
+
+  同时确保你已经安装了Hexo的Git部署插件
+```bash
+npm i hexo-deployer-git --save
+```
+
 ### 生成密钥
 **对于一些用户……**
 　　- 对于Windows10用户，可在Store商店安装Ubuntu
@@ -84,7 +89,7 @@ jobs:
 
       - name: 配置环境变量
         env:
-          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+          HEXO_DEPLOY_KEY: ${{secrets.HEXO_DEPLOY_KEY}}
         run: |
           mkdir -p ~/.ssh/
           echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
@@ -95,7 +100,6 @@ jobs:
       - name: 安装部署时运行环境
         run: |
           npm i -g hexo-cli
-          npm i hexo-deployer-git --save
           npm i
       - name: 生成站点静态文件
         run: |
