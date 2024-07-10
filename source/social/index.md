@@ -33,7 +33,7 @@ breadcrumb: false
 ```yaml
 - title: Mikuの次行星
 # 站点标题
-  url: https://blog.tkgso.fun
+  url: https://tkgso.fun
 # 站点链接
   cover: 站点截图待完善，如有需求可自行截取
 # 站点截图（PC）
