@@ -205,7 +205,7 @@ search:
 
 ######## Comments ########
 comments:
-  service: twikoo # beaudar, utterances, giscus, twikoo, waline, artalk
+  service: artalk # beaudar, utterances, giscus, twikoo, waline, artalk
   comment_title: 快来参与讨论吧~
   lazyload: false # true / false
   # beaudar
@@ -300,7 +300,7 @@ comments:
   artalk:
     css: https://unpkg.com/artalk@2.8.5/dist/Artalk.css
     js: https://unpkg.com/artalk@2.8.5/dist/Artalk.js
-    server: # 后端服务地址
+    server: https://comment.tkgso.fun # 后端服务地址
     placeholder: ''
     darkMode: auto
 
